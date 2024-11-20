@@ -3,21 +3,29 @@
 
 int main()
 {
-    int a;
-    printf("Podaj a:");
+    int kwadrat_a;
+    printf("Podaj bok a kwadratu:");
     scanf("%d", &a);
 
-    int b;
-    printf("Podaj b:");
-    scanf("%d", &b);
+    int prostokat_a, prostokat_b;
+    printf("Podaj bok a prostokatu:");
+    scanf("%d", &prostokat_a);
 
-    int c;
-    printf("Podaj c:");
-    scanf("%d", &c);
+    printf("Podaj bok b prostokatu:");
+    scanf("%d", &prostokat_b);
 
-    int d;
-    printf("Podaj d:");
-    scanf("%d", &d);
+    int trapez_a, trapez_b, trapez_c, trapez_d;
+    printf("Podaj bok a trapezu:");
+    scanf("%d", &trapez_a);
+    
+    printf("Podaj bok b trapezu:");
+    scanf("%d", &trapez_b);
+    
+    printf("Podaj bok c trapezu:");
+    scanf("%d", &trapez_c);
+    
+    printf("Podaj bok d trapezu:");
+    scanf("%d", &trapez_d);
 
     int h;
     printf("Podaj h:");
