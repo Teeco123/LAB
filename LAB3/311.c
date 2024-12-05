@@ -14,7 +14,11 @@ int main()
   printf("Podaj alfe:");
   scanf("%f", &alfa);
 
-  printf("Wartosc funkcji dla t = %d, wynosi %.2f\n", t, wartoscFunkcji(t, alfa));
+  if(t >= 0 || t <=6){
+    printf("Wartosc funkcji dla t = %d, wynosi %.2f\n", t, wartoscFunkcji(t, alfa));
+  }else {
+    printf("Podaj t w zakresie 0-3");
+  }
 
   return 0;
 }
