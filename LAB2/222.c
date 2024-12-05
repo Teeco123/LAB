@@ -3,9 +3,9 @@
 
 int main() {
   int kwadrat_a;
-  int prostokat_a, prostokat_b; 
+  int prostokat_a, prostokat_b;
   int trapez_a, trapez_b, trapez_c, trapez_d, trapez_h;
-  int trojkat_a, trojkat_b,trojkat_c, trojkat_h;
+  int trojkat_a, trojkat_b, trojkat_c, trojkat_h;
   int obwod_kwadrat, obwod_prostokat, obwod_trapez, obwod_trojkat;
   int pole_kwadrat, pole_prostokat, pole_trapez, pole_trojkat;
 
@@ -17,7 +17,6 @@ int main() {
   printf("pole kwadratu to: %d \n", pole_kwadrat);
   printf(" \n");
 
-
   printf("Podaj bok a prostokatu:");
   scanf("%d", &prostokat_a);
   printf("Podaj bok b prostokatu:");
@@ -27,7 +26,6 @@ int main() {
   pole_prostokat = prostokat_a * prostokat_b;
   printf("pole prostakatu to: %d \n", pole_prostokat);
   printf(" \n");
-
 
   printf("Podaj bok a trapezu:");
   scanf("%d", &trapez_a);
@@ -44,7 +42,6 @@ int main() {
   pole_trapez = (trapez_a + trapez_b) * trapez_h / 2;
   printf("pole trapezu to: %d \n", pole_trapez);
   printf(" \n");
-
 
   printf("Podaj bok a trojkatu:");
   scanf("%d", &trojkat_a);
